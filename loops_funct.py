@@ -1,5 +1,6 @@
-#if and else 
+#conditional_statements
 
+#if elif and else
 friends = ["Ammu", "Bhavi", "deepa"]
 family = ["Pooja", "lekha", "smitha"]
 
@@ -12,8 +13,8 @@ elif member in family:
 else:
     print('we dont know you')
 
+#Loops
 #while loop
-
 user_input = input('Do you wish to run the program (Yes/No):')
 
 while user_input == "Yes":
@@ -22,7 +23,7 @@ while user_input == "Yes":
 
 print('program execution is stopped')
 
-#exercise
+#exercise1
 user_option = input('Choose the option p or q')
 
 while user_option != 'q':
@@ -31,8 +32,15 @@ while user_option != 'q':
     user_option = input('choose the option p or q')
 
 #for loop
-for i in range(2,20,3):
+
+for i in range(5):
     print(i)
+for j in range(1,10):
+    print(j)
+for k in range(2,20,3):
+    print(k)
+
+#exercise1
 
 students = [
     {"name":"merry", "grade":86},
@@ -44,20 +52,23 @@ for student in students:
     grade = student["grade"]
     print(f"{name} has grade of {grade}")
 
-
-currencies = 0.8, 1.2 #tuple
-usd, euro = currencies
-print(usd)
-print(euro)
-
-
-
-
-
-
-
+#exercise2 break keyword
+# Guessing game
+secret_number = 8
+while True:
+    guess = int(input("Guess the secret number (between 1 and 10): "))
+    if guess == secret_number:
+        print("Congratulations! You've guessed the secret number.")
+        break
+    else:
+        print("Try again!")
 
 
-
-
+#exercise3 continue keyword
+#skip city names starts with 'C'
+city_names =["Delhi", "Chennai", "Mumbai", "Chandigarh", "Bangalore", "Mysuru"]
+for city in city_names:
+    if city.startswith("C"):
+        continue
+    print(city)
 
