@@ -1,7 +1,7 @@
 #data_types_strings
 
 str_with_single_quotes = "Hello!, It's me, Geethanjali."
-str_with_double_quotes = 'He told, "Its an amazing place to be visited".'
+str_with_double_quotes = 'He told, "Its an amazing place to visit".'
 str_with_escape_character = 'She told, \'Weather is good today\'.' #escaping
 #multiline strings - can be used for commenting
 multiline_string = """Hello!,
