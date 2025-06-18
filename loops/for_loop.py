@@ -1,5 +1,3 @@
-#for loop
-
 for i in range(5):
     print(i)
 for j in range(1,10):
@@ -7,8 +5,7 @@ for j in range(1,10):
 for k in range(2,20,3):
     print(k)
 
-#exercise1
-
+# Looping through a list of dictionaries
 students = [
     {"name":"merry", "grade":86},
     {"name":"cherry","grade":90},

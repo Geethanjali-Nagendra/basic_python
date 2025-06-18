@@ -1,4 +1,3 @@
-#exercise1 break keyword
 # Guessing game
 secret_number = 8
 while True:
@@ -10,7 +9,6 @@ while True:
         print("Try again!")
 
 
-#exercise2 continue keyword
 #skip city names starts with 'C'
 city_names =["Delhi", "Chennai", "Mumbai", "Chandigarh", "Bangalore", "Mysuru"]
 for city in city_names:

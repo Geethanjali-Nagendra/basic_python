@@ -1,4 +1,3 @@
-#data_type_boolean
 print(bool(0)) #false
 print(bool(15)) #true
 print(bool("")) #empty string is false
@@ -18,7 +17,7 @@ print(age_matches)
 
 #OR operation
 default_greeting = "there"
-name_data = input('enter username: optional')
+name_data = input('Enter the username: optional')
 username = name_data or default_greeting
 print(f"Hallo, {username}")
 

@@ -1,4 +1,3 @@
-#while loop
 user_input = input('Do you wish to run the program (Yes/No):')
 
 while user_input == "Yes":
@@ -7,10 +6,10 @@ while user_input == "Yes":
 
 print('program execution is stopped')
 
-#exercise1
+
 user_option = input('Choose the option p or q')
 
 while user_option != 'q':
     if user_option == 'p':
         print("Hello")
-    user_option = input('choose the option p or q')
+    user_option = input('Choose the option p or q')
