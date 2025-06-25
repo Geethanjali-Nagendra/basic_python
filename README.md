@@ -13,3 +13,5 @@ The project includes example programs and explainations for:
     - while loop, for loop
 5. Loop control keywords
     - break, continue
+6. Logical operators
+    - or, and, not
