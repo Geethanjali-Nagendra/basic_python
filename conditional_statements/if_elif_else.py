@@ -1,5 +1,6 @@
 number = int(input("Enter a two-digit number: "))
-if number <10 or number > 99:
+
+if number < 10 or number > 99:
     print("Please enter a valid two-digit number.")
 
 
