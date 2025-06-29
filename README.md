@@ -15,3 +15,8 @@ The project includes example programs and explainations for:
     - break, continue
 6. Logical operators
     - or, and, not
+7. Functions
+    - fundamental concepts: defining functions, calling functions, parameters and default parameters
+    - lambda function
+    - First class function
+    - Built-in-functions: enumerate(), zip(), map(), filter()
