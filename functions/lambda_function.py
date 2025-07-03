@@ -1,7 +1,7 @@
-difference = lambda c, d : c - d
+difference = lambda operand1, operand2 : operand1 - operand2
 print(difference(10, 6))
 
-print((lambda e, f : e * f) (5, 6))
+print((lambda operand3, operand4 : operand3 * operand4) (5, 6))
 
 #calculate average score of students
 average_score = lambda sequence : sum(sequence) / len(sequence)

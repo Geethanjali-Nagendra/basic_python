@@ -14,4 +14,4 @@ average = sum(numbers) / len(numbers)
 print(f"Average: {average}")
 
 numbers_greater_than_average = filter(lambda num : num > average, numbers)
-print(tuple(numbers_greater_than_average))
+print(set(numbers_greater_than_average))
