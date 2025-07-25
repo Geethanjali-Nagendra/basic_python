@@ -1,8 +1,8 @@
-def greetings(): #defining a function
-    name = input("Wie heißen Sie? ")
+def greetings(name): #defining a function
     print(f"Hallo {name}, Guten tag!")
 
-greetings() # calling the function
+name = input("Wie heißen Sie? ")
+greetings(name) # calling the function
 
 
 def add_numbers(a,b): # defining a function with parameters
@@ -13,7 +13,7 @@ add_numbers(4,6) #6 and 4 are passed as arguments to the function add_numbers
 
 def divide_numbers(x,y): #with return statement
     if y == 0:
-        return f"Division by zero is not allowed."
+        raise ZeroDivisionError("Division by zero is not allowed")
     else:
         return x / y
     
@@ -30,6 +30,3 @@ print(multiply_numbers(2,v=6)) #named argument, v is set to 6
 
 #note - if first parameter is default parameter then subsequent parameters must also be default parameters
 #if first argument is named argument then all subsequent arguments must also be named arguments
-
-#sep parameter in print function
-print(1, 2, 3, 4, 5, sep='-')

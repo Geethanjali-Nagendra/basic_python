@@ -1,18 +1,17 @@
-def even():
-    number = int(input("Enter a number: "))
+def is_even(number):
     if number % 2 == 0:
         print(f"{number} is even")
     else:
         print(f"{number} is odd")   
 
-even_number = even
-even_number()  # calling the function using the variable that holds the function reference
+number = int(input("Enter a number: "))
+
+even_number = is_even
+even_number(number)  # calling the function using the variable that holds the function reference
 
 #example 
-operations_function = {
-    "total_score": lambda sequence: sum(sequence),
-    "highest_score": lambda sequence: max(sequence)
-}
+total_score = lambda sequence: sum(sequence)
+highest_score = lambda sequence: max(sequence)
 
 students = [
     {"name":"Anu", "score":(85, 90, 95)},
@@ -21,12 +20,17 @@ students = [
     {"name":"Dinesh", "score":(65, 70, 75)}
 ]
 
+operation = input("Enter total_score or highest_score:")
+
 for student in students:
     name = student["name"]
     score = student["score"]
 
     print(f"student name: {name}")
-    operation = input("Enter total_score or highest_score:")
 
-    result = operations_function[operation]  # calling the function using the variable that holds the function reference
-    print(result(score))
+    if operation == "total_score":
+        print(f"Total score: {total_score(score)}")
+    elif operation == "highest_score":
+        print(f"Highest score: {highest_score(score)}") 
+    else:
+        print("Invalid operation")
