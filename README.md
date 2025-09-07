@@ -20,3 +20,9 @@ The project includes example programs and explainations for:
     - lambda function
     - First class function
     - Built-in-functions: enumerate(), zip(), map(), filter()
+8. OOPS
+    - class, default constructor, object creation
+    - class method, static method, instance method
+    - encapsulation
+    - inheritence, polymorphism
+    
